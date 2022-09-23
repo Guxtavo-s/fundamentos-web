@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Dirt&display=swap');
+
+/* Fundo */
+body {
+    background-color: #0099ff;
+}
+
+/* Menu */
+#menu li {
+    display: inline;
+    justify-content: center; 
+    font-family: 'Rubik Dirt', cursive;
+    padding: 15px;
+    font-size: 21px;
+    
+}
+
+/* Menu - parte clicavel da palavra  */
+#menu a {
+    text-decoration: none;
+}
+
+/* Menu - muda a cor para indicar que a palavra é clicável */
+#menu a:hover {
+    color: gold;
+}
+
+/* Container está lidando com Texto e com a Foto */
+.container  {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(210, 224, 11);
+    margin: 0 auto;
+    width: 70vw;
+    border-radius: 16px;
+
+}  
+.container2  {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(210, 224, 11);
+    margin: 0 auto;
+    width: 70vw;
+    border-radius: 16px;
+    font-family: Arial;
+
+
+}
+input, textarea, button {
+    width: 100%;
+    border-radius: 8px;
+    padding: 5px;
+    border: 1px solid;
+}
+/* input, textarea, button {
+    border: 1px solid;
+  } */
+  
+button {
+    justify-content: center;
+}
+/* Config video */
+.video {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+/* Justifica o texto - config texto*/
+.justify {
+    text-align: justify;
+    font-family: Arial;
+    font-size: 11pt;
+    width: 40vw;
+}
+
+/* Centraliza */
+.center {
+    text-align: center;
+}
+
+/* Padding com 30 pixels */
+.p-30 {
+    padding: 30px;
+}
+
+/* Config foto */
+.foto {
+    width: 230px;
+    height: 230px;
+}
+
+/* Footer background */
+.bg {
+    color: #ffffff;
+    background-color: black;
+    padding: 20px;
+    border-radius: 16px;
+}
+
+/* Div container */
+.mb-50 {
+    margin-bottom: 50px;
+}
+
+.ml-50 {
+    margin-left: 50px;
+}
+
+.font {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 15vw;
+    margin-top: 4vw;
+}
+
+/* Formulário */
+
