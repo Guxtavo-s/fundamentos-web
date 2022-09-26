@@ -56,9 +56,6 @@ input, textarea, button {
     padding: 5px;
     border: 1px solid;
 }
-/* input, textarea, button {
-    border: 1px solid;
-  } */
   
 button {
     justify-content: center;
@@ -91,6 +88,7 @@ button {
 .foto {
     width: 230px;
     height: 230px;
+    border-radius: 6px;
 }
 
 /* Footer background */
